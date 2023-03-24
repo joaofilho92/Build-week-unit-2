@@ -1,0 +1,84 @@
+h2.gioventu {
+  font-size: 6rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 1rem;
+}
+img.pinguini {
+  border-radius: 50%;
+}
+#nav-album {
+  background-color: rgba(240, 248, 255, 0);
+  width: 100%;
+}
+
+div.giallo {
+  font-family: "circular";
+
+  padding-block: 1rem;
+}
+div.loghi {
+  background-color: rgba(0, 0, 0, 0.342);
+  color: white;
+}
+
+i.play {
+  font-size: 4rem;
+  color: #1ed760;
+}
+i.hearth {
+  font-size: 2rem;
+}
+i.arrow {
+  font-size: 2rem;
+}
+i.dot {
+  font-size: 2rem;
+}
+div.clock {
+  /* margin-left: auto; */
+}
+
+.hover:hover {
+  cursor: pointer;
+}
+#playhead {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+  position: absolute;
+  top: -3px;
+  left: 0;
+  cursor: pointer;
+  color: #000;
+}
+.spinner {
+  background-color: #000000b7;
+  z-index: 1000;
+}
+
+.row-personale {
+  padding-top: 45px;
+}
+body {
+  font-family: "circular";
+}
+div.titoli {
+  font-family: "circular";
+}
+div.riproduzioni {
+  font-family: "circular";
+}
+.main {
+  background: rgb(230, 238, 24);
+  background: linear-gradient(
+    180deg,
+    rgba(212, 182, 75, 1) 16%,
+    rgba(181, 157, 65, 0.623) 34%,
+    rgba(127, 110, 45, 0.705) 51%,
+    rgba(46, 45, 22, 0.8575805322128851) 64%,
+    rgba(5, 5, 0, 1) 84%
+  );
+}

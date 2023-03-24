@@ -1,0 +1,91 @@
+#banner-artist {
+  width: 100%;
+  height: 45vh;
+  z-index: 1;
+}
+
+#nav-artist {
+  background-color: rgba(240, 248, 255, 0);
+  width: 100%;
+  z-index: 999;
+}
+
+.img-banner {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+  object-position: 100% 47%;
+  z-index: 0;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+#name-artist {
+  top: 190px;
+  color: white;
+  font-weight: bold;
+  z-index: 999;
+  max-width: 100%;
+}
+#playhead {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+  position: absolute;
+  top: -3px;
+  left: 0;
+  cursor: pointer;
+  color: #000;
+}
+
+#title-album {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #d6d6d6;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.play {
+  font-size: 4rem;
+  color: #1ed760;
+}
+
+#follow-btn {
+  padding-block: 5px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+#trePunti {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+.title-artist {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.img-album {
+  height: 38px;
+}
+
+.pallino-cuore {
+  bottom: 0;
+  right: 0;
+  background-color: #1ed760;
+  color: white;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}

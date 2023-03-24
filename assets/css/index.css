@@ -1,0 +1,152 @@
+#banner {
+  width: 98%;
+  height: 240px;
+  background-image: linear-gradient(
+    to bottom left,
+    #141414,
+    #141414,
+    #000000,
+    #000000,
+    #000000
+  );
+}
+
+#imgbanner {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.main-nav {
+  z-index: 999;
+}
+
+#h1 {
+  margin-left: 00px;
+  font-size: 1rem;
+  color: white;
+  font-size: 10px;
+}
+#text1 {
+  flex-grow: 20;
+  flex-basis: auto;
+}
+#p1 {
+  opacity: 0.5;
+  font-size: 9px;
+}
+#h1banner {
+  color: white;
+  margin-left: 22px;
+  font-size: 45px;
+  margin-top: -15px;
+  font-weight: bold;
+}
+
+.album-card {
+  cursor: pointer;
+}
+.album-card:hover {
+  transform: scale(1.1);
+  transition-duration: 350ms;
+}
+.artista {
+  cursor: pointer;
+}
+
+.artista:hover {
+  transform: scale(1.05);
+  transition-duration: 350ms;
+}
+.card-small {
+  background-color: #6868687d;
+  color: white;
+}
+#h1banner2 {
+  color: rgb(197, 195, 195);
+  margin-left: 22px;
+  font-size: 12px;
+  margin-top: -5px;
+}
+#h1banner3 {
+  color: rgb(197, 195, 195);
+  margin-left: 22px;
+  font-size: 12px;
+  margin-top: 15px;
+}
+.bn60 {
+  background-color: #1ed760;
+  color: #000000;
+  font-size: 13px;
+  font-weight: 600;
+  position: relative;
+  outline: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 43px;
+  width: 85px;
+  margin-left: 15px;
+  margin-top: 12px;
+}
+.bn61 {
+  background-color: #000000;
+  border: 1px solid rgb(107, 107, 107);
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  position: relative;
+  outline: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 43px;
+  width: 85px;
+  margin-left: 15px;
+  margin-top: 12px;
+}
+#dots {
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 1px;
+  color: rgb(107, 107, 107);
+}
+
+.h12 {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#cards1 {
+  background-color: rgb(53, 52, 52);
+}
+#p2 {
+  margin-top: 12px;
+  margin-left: 10px;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+.size {
+  width: 80px;
+  height: 70px;
+}
+.card2 {
+  background-color: rgb(32, 29, 29);
+}
+.p3 {
+  color: rgb(131, 130, 130);
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.spinner {
+  background-color: #000000b7;
+  z-index: 1000;
+}

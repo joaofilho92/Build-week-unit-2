@@ -1,0 +1,257 @@
+body {
+  margin-bottom: 50px;
+}
+
+.col-page {
+  background-color: #000;
+  height: 100%;
+  /* width: 290px; */
+}
+
+.icone {
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+.logo {
+  width: 140px;
+}
+
+.menùAmici {
+  max-width: 300px;
+}
+.overflow {
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-thumb {
+  background: #ffffff6b;
+}
+div::-webkit-scrollbar-thumb {
+  background: #ffffff57;
+}
+div::-webkit-scrollbar {
+  width: 15px;
+}
+
+.overflow::-webkit-scrollbar {
+  width: 15px;
+}
+.overflow::-webkit-scrollbar-thumb {
+  background: #ffffff8c;
+}
+
+ul {
+  list-style: none;
+}
+
+svg {
+  fill: currentColor;
+  opacity: 0.7;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.home {
+  box-sizing: content-box;
+  margin-top: -6px;
+}
+.row-page {
+  height: 90vh;
+}
+.main {
+  height: 100%;
+  overflow: auto;
+  color: #a5a5a7;
+  background-color: #141414;
+  font-family: "Roboto", sans-serif;
+  background-size: contain;
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+
+.col-page::-webkit-scrollbar {
+  opacity: 0;
+}
+
+.heart {
+  background-image: linear-gradient(
+    to right bottom,
+    #4c16f2,
+    #007eff,
+    #00acfc,
+    #00ced5,
+    #bde8d5
+  );
+  height: 19px;
+  width: 19px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+body {
+  overflow: hidden;
+  background-color: #141414;
+}
+
+.nav-sud {
+  z-index: 999;
+  height: 10vh;
+  background-color: #252525;
+}
+
+#sidebar {
+  font-size: 12px;
+  line-height: 35px;
+  margin-left: -20px;
+  color: #a5a5a7;
+}
+
+.navbar1 {
+  color: #a5a5a7;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.bookmark {
+  background-color: rgb(40, 90, 40);
+  color: rgb(3, 167, 3);
+  height: 20px;
+  width: 20px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+.span1 {
+  margin-left: -20px;
+}
+
+.player-img {
+  height: 60px;
+  width: 60px;
+}
+.song-name-player {
+  line-height: 17px;
+  margin-block: auto;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.song-title-player {
+  line-height: 17px;
+  margin-block: auto;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.music-bar {
+  width: 100%;
+  height: 5px;
+}
+
+.player {
+  width: 30vw;
+}
+
+.progress-bar {
+  width: 100%;
+}
+
+.range-input {
+  height: 4px;
+  max-width: 100px;
+  width: auto;
+}
+
+input[type="range"] {
+  overflow: hidden;
+  width: 80px;
+  -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  width: 0px;
+  -webkit-appearance: none;
+  height: 0px;
+  cursor: ew-resize;
+  background: #434343;
+  box-shadow: -80px 0 0 80px #1fdf64;
+  border-radius: 50%;
+}
+
+/** FF*/
+input[type="range"]::-moz-range-progress {
+  background-color: #43e5f7;
+}
+input[type="range"]::-moz-range-track {
+  background-color: #9a905d;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+  background-color: #43e5f7;
+}
+input[type="range"]::-ms-fill-upper {
+  background-color: #9a905d;
+}
+
+.rounded-arrow {
+  background-color: #00000055;
+  color: white;
+  padding: 8px;
+  border-radius: 40px;
+}
+
+.main-nav {
+  background-color: #141414;
+}
+
+.amici-text {
+  font-size: 10px;
+}
+
+.amici-text-span {
+  font-size: 13px;
+}
+
+.immagine-profilo {
+  height: 50px;
+  border-radius: 40px;
+}
+
+.titolo-player-scomparsa {
+  white-space: nowrap;
+
+  width: auto;
+}
+.player-btn {
+  position: absolute;
+  width: 28%;
+
+  right: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  z-index: 999;
+  background-color: #252525;
+}
+
+@keyframes scroll-text {
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(90%);
+  }
+}
+
+.titolo-player-scomparsa {
+  animation: scroll-text 10s linear infinite;
+}
